@@ -1,63 +1,40 @@
 h1 {
-    font-size: 3em;
-    color: #E2C044;
+    font-size: 8em;
+    color: deeppink;
 }
-
-h5 {
-    color: #9EB1Bc;
-}
-
-h4 {
-    color: #2E5266;
-}
-
 body {
-    background-color:#1A2D38;
-    margin-top:15em;
-    margin-bottom: 20em;
+    background-image: url("back1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-#Header{
-    background-color: #1A2D38;
+
+blink {
+        animation: blinker 0.6s linear infinite;
+        color: hotpink;
+       }
+      @keyframes blinker {  
+        50% { opacity: 0; }
+       }
+       .blink-one {
+         animation: blinker-one 1s linear infinite;
+       }
+       @keyframes blinker-one {  
+         0% { opacity: 0; }
+       }
+       .blink-two {
+         animation: blinker-two 1.4s linear infinite;
+       }
+       @keyframes blinker-two {  
+         100% { opacity: 0; }
+       }
+
+h2 {
+    font-size: 4em;
+    color: red;
 }
 
-#top{
-    background-color:#E2C044;
-    border-bottom-right-radius: 100%;
-
-}
-
-#Left{
-    background-color:#2E5266;
-    border-bottom-left-radius: 50%;
-}
-
-body {
-    color:#D3D0CB;
-}
-
-#Right {
-    background-color: #5B707D;
-     border-top-right-radius: 50%;
-}
-
-#ID {
-   background-color:#E2C044;
- 
-   
-}
-
-.picture {
-    border-radius: 50%;
-}
-
-.Right {
-    color:#1A2D38;
-    
-
-}
-#Objective {
-        background-color:#E2C044;
-    border-bottom-right-radius: 100%;
-   
+h3 {
+    font-size: 6em;
+    color: palevioletred;
 }
