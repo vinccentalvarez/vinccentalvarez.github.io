@@ -1,1 +1,0 @@
-# vinccentalvarez.github.io
